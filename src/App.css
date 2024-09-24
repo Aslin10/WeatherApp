@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  font-family: "Roboto", sans-serif; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+background-image: url(./images/picture.jpg);
+
+
+}
+
+
+.container{
+background-color:#53a4e6;
+margin-top: 20px;
+padding: 10px;
+width: 400px;
+height: auto;
+position: relative;
+display: flex;
+flex-direction: column;
+text-align: center;
+border-radius: 10px;
+
+
+}
+.input_holder{
+  display: flex;
+  
+}
+
+.input_holder input{
+  
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+width:100%;
+font-size: 18px;
+
+font-weight: 400;
+border: 3px solid #2980b9 ;
+outline-style: none;
+}
+.search_holder img{
+  width: 50px;
+  height: 50px;
+  margin-top: 12px;
+  padding: 5px;
+ position: absolute;
+ right: 5px;
+  cursor: pointer;
+}
+.image img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border:1px solid;
+  margin-top: 5px;
+  
+}
+
+.details h2,p{
+  padding: 5px;
+  margin: 5px;
+  font-size:22px;
+  font-weight: 500;
+  color:#ddf339 ;
+}
+
+
+.country{
+  color:#ffffff;
+}
+.position{
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 17px;
+  color:navy;
+}
+.log{
+  display: flex;
+  flex-direction: column;
+  
+  }
+.log span{
+  margin-top: 5px;
+  color: #9c168e;;
+  font-weight: 500;
+}
+.lat{
+  display: flex;
+  flex-direction: column;
+}
+.lat span{
+  margin-top: 5px;
+  color:#9c168e;
+  font-weight: 500;
+}
+.Air_details{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin:10px ;
+
+}
+.Air_details img{
+  width: 50px;
+  height: 50px;
+  display: block;
+  
+  margin-bottom: 5px;
+
+}
+.loading,.error,.citynotfound{
+margin-top:10px;
+color:#082b53cc;
+font-size: 20px;
+font-weight: 500;
+padding: 5px;
+
+}
